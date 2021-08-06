@@ -1,0 +1,59 @@
+/* CSS Document */
+@font-face {
+    font-family: 'modekaregular';
+    src: url('../font/modeka-webfont.woff2') format('woff2'),
+         url('../font/modeka-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'modekae';
+    src: url('../font/Modeka-Extended.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'modekae';
+    src: url('../font/Modeka-Bold-Extended.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+/* COLOR PALLETTE RUNATEL
+#00ade2		Light BLue
+#0091d6		Blue
+#01408a		Dark Blue
+#004c3f		Dark Green
+#00b050		Green MainLogo
+#666666		Gray
+
+#dddddd		BG Slogan
+#cccccc		bg more dark
+#eeeeee		bg more light
+*/
+
+body{font-family: 'Ubuntu', sans-serif;}
+h1{font-family: modekae; font-size: 4em !important; letter-spacing: 2px}
+h2{font-family: modekae; font-size: 3em !important; letter-spacing: 2px}
+.cero{margin: 0; padding: 0;}
+.head{background: url(../img/bg-vec-01.png) no-repeat center top; background-color: #eee; background-attachment: fixed; padding: 60px 0; border-bottom: 5px solid #00b050; margin-bottom: 0px}
+.head-min{background: url(../img/bg-vec-01.png) no-repeat center top; background-color: #eee; background-attachment: fixed; padding: 20px 0; border-bottom: 5px solid #00b050; margin-bottom: 0px}
+.contenido{ padding: 70px 0;}
+.contenido-head{ border-bottom: 5px solid #efefef}
+.contenido-planes{border-bottom: 1px solid #efefef; padding: 80px 0 100px 0; border-bottom: 5px solid #333}
+.contenido-info{padding: 100px 0}
+.contenido-info h1{margin-bottom: 60px;}
+.contenido-direcciones{background: url(../img/bg-vec-01.png) no-repeat center top; background-color: #01408a; background-attachment: fixed; padding: 80px 0;}
+.contenido-direcciones h1{margin-bottom: 80px;}
+.contenido-mapas{padding: 0; border-bottom: 5px solid #00b050}
+.contenido-foot{background: #ccc; padding: 30px;}
+.card-anim{transition: all 0.5s ease;webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-o-transition: all 0.5s ease;}
+.card-anim:hover{-webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); -ms-transform: scale(1.1); transform: scale(1.1);  webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; z-index: 99; background: #fff;}
+.parallax-window { min-height: 400px; background: transparent;}
+.list-places div{font-size: 35px; font-weight: 100; color: #fff; font-weight: 100; padding: 18px 0; color: white; text-shadow: 2px 2px 10px #000000;}
+.breadcrumb-cero{margin-bottom: 0px;}
+.card-custom-home{background: rgba(0, 0, 0, 0.3) /* Green background with 30% opacity */}
+.card-plan{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.bg-success{background-color: #01408a !important;}
