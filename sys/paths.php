@@ -15,6 +15,7 @@ define('RAIZm',RAIZ.'mods/');
 define('RAIZf',RAIZ.'frames/');
 define('RAIZd',RAIZ.'data/');
 define('RAIZs',RAIZ.'sys/');
+define('RAIZv',RAIZ.'vendor/');
 
 $RAIZ=$protocolS.$hostType.$folderCont;
 $RAIZr=$remoteHost;
@@ -22,5 +23,6 @@ $RAIZa=$RAIZ.'assets/';
 $RAIZd=$RAIZ.'data/';
 $RAIZm=$RAIZ.'mods/';
 $RAIZs=$RAIZ.'sys/';
+$RAIZv=$RAIZ.'vendor/';
 
 ?>
