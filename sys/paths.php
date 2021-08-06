@@ -1,17 +1,15 @@
 <?php defined('_JEXEC') or die('Restricted access');//Comprueba si la constante esta definida
-//$folderBase='/runatel.com/'; //Remoto. '/'; Local. '/Folder/' (Folder in www)
-//$folderCont='runatel.com/'; //Folder if system is in subdirectory 
 $folderBase='/'; //Remoto. '/'; Local. '/Folder/' (Folder in www)
-$folderCont=''; //Folder if system is in subdirectory
+$folderCont='runatel-web/'; //Folder if system is in subdirectory
 
 $serverRoot=$_SERVER['DOCUMENT_ROOT'];
-$hostType=$_SERVER[HTTP_HOST].'/'; //Remoto. 'www.'; Local. 'localhost/'
-$protocolS='https://';
+$remoteHost='https://runatel.com/';
+$hostType=$_SERVER['HTTP_HOST'].'/'; //Remoto. 'www.'; Local. 'localhost/'
 
-if ($_SERVER[HTTPS]) $protocolS='https://';
+if (isset($_SERVER['HTTPS'])) $protocolS='https://';
 else $protocolS='http://';
 
-define('RAIZ',$serverRoot.$folderBase);
+define('RAIZ',$serverRoot.$folderBase.$folderCont);
 define('RAIZa',RAIZ.'assets/');
 define('RAIZm',RAIZ.'mods/');
 define('RAIZf',RAIZ.'frames/');
@@ -19,12 +17,10 @@ define('RAIZd',RAIZ.'data/');
 define('RAIZs',RAIZ.'sys/');
 
 $RAIZ=$protocolS.$hostType.$folderCont;
+$RAIZr=$remoteHost;
 $RAIZa=$RAIZ.'assets/';
-$RAIZd=$RAIZi.'data/';
+$RAIZd=$RAIZ.'data/';
 $RAIZm=$RAIZ.'mods/';
 $RAIZs=$RAIZ.'sys/';
-/*
-echo '$RAIZ. '.$RAIZ.'<br>';
-echo "RAIZ. ".RAIZ.'<br>';
-*/
+
 ?>

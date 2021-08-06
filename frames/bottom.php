@@ -1,4 +1,4 @@
-<?php include('mods/mod_content/modMapa.php') ?>
+<?php include(RAIZm.'mod_content/modMapa.php') ?>
 <div class="contenido contenido-foot">
 	<div class="container">
 		<div class="row">

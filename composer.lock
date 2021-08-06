@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08bd85cc6b2294e6271b743adc431f95",
+    "content-hash": "4bc97d60934e750ac93f4cd3bb6b5bcc",
     "packages": [
         {
             "name": "components/jquery",
@@ -57,16 +57,16 @@
         },
         {
             "name": "fortawesome/font-awesome",
-            "version": "5.15.3",
+            "version": "5.15.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FortAwesome/Font-Awesome.git",
-                "reference": "d79d85c3fad85ad1885e87ed558f4afd6fce8289"
+                "reference": "7d3d774145ac38663f6d1effc6def0334b68ab7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/d79d85c3fad85ad1885e87ed558f4afd6fce8289",
-                "reference": "d79d85c3fad85ad1885e87ed558f4afd6fce8289",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/7d3d774145ac38663f6d1effc6def0334b68ab7e",
+                "reference": "7d3d774145ac38663f6d1effc6def0334b68ab7e",
                 "shasum": ""
             },
             "type": "library",
@@ -122,7 +122,7 @@
                 "issues": "https://github.com/FortAwesome/Font-Awesome/issues",
                 "source": "https://github.com/FortAwesome/Font-Awesome"
             },
-            "time": "2021-03-16T18:57:33+00:00"
+            "time": "2021-08-04T19:09:22+00:00"
         },
         {
             "name": "select2/select2",
@@ -172,17 +172,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thomaspark/bootswatch.git",
-                "reference": "5245ce7f26377caf94ffdcf0bc3a03764f536c8d"
+                "reference": "1aee696ed40c9838c26adecfac8b2db75074edf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/5245ce7f26377caf94ffdcf0bc3a03764f536c8d",
-                "reference": "5245ce7f26377caf94ffdcf0bc3a03764f536c8d",
+                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/1aee696ed40c9838c26adecfac8b2db75074edf4",
+                "reference": "1aee696ed40c9838c26adecfac8b2db75074edf4",
                 "shasum": ""
             },
             "suggest": {
                 "robloach/component-installer": "Allows installation of Components via Composer"
             },
+            "default-branch": true,
             "type": "component",
             "extra": {
                 "component": {
@@ -209,20 +210,20 @@
                 "issues": "https://github.com/thomaspark/bootswatch/issues",
                 "source": "https://github.com/thomaspark/bootswatch/tree/v5"
             },
-            "time": "2021-04-13T13:25:09+00:00"
+            "time": "2021-07-08T15:25:42+00:00"
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v5.0.0",
+            "version": "v5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "bf0936748602c8109fd916c64b4560799fa1c3f8"
+                "reference": "f20fece3a8cdd0e76a42c2737524b7652bf54d26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/bf0936748602c8109fd916c64b4560799fa1c3f8",
-                "reference": "bf0936748602c8109fd916c64b4560799fa1c3f8",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/f20fece3a8cdd0e76a42c2737524b7652bf54d26",
+                "reference": "f20fece3a8cdd0e76a42c2737524b7652bf54d26",
                 "shasum": ""
             },
             "replace": {
@@ -257,15 +258,9 @@
             ],
             "support": {
                 "issues": "https://github.com/twbs/bootstrap/issues",
-                "source": "https://github.com/twbs/bootstrap/tree/v5.0.0"
+                "source": "https://github.com/twbs/bootstrap/tree/v5.1.0"
             },
-            "funding": [
-                {
-                    "url": "https://opencollective.com/bootstrap",
-                    "type": "open_collective"
-                }
-            ],
-            "time": "2021-05-05T19:32:12+00:00"
+            "time": "2021-08-04T15:41:51+00:00"
         }
     ],
     "packages-dev": [],

@@ -1,7 +1,3 @@
-<?php include('init.php');
-include('frames/head.php');
-include('frames/top.php')
-?>
 <div id="block2" style="width: 100%; height: auto;" data-vide-bg="mp4: data/vids/netlike02, webm: data/vids/netlike02, ogv: <?php echo $RAIZ ?>data/vids/netlike02, poster: data/vids/netlike02" data-vide-options="position: 0% 50%">
 
 <div class="contenido contenido-head" style="background: rgba(0,0,0,0.4);">
@@ -33,8 +29,3 @@ include('frames/top.php')
 </div>
 </div>
 </div>
-<?php include('mods/mod_content/modPlanes.php') ?>
-<?php include('mods/mod_content/modCobertura.php') ?>
-<?php include('mods/mod_content/modLocalizacion.php') ?>
-<?php include('frames/bottom.php');
-include('frames/foot.php'); ?>

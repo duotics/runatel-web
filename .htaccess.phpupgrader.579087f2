@@ -1,8 +1,0 @@
-Options +FollowSymLinks
-# Activar RewriteEngine
-RewriteEngine on
-RewriteBase /
-
-# OTHER
-RewriteRule ^cobertura/?$ cobertura.php
-RewriteRule ^test/?$ http://runatel.speedtestcustom.com/
