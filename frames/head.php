@@ -11,7 +11,7 @@
 	include(RAIZs.'libs.php');
 	include(RAIZs.'styles.php');
 	include(RAIZm.'mod-plugin-goog/analyticstracking.php');
-	include(RAIZm.'mod-plugin-fb/fbchat.php');
+	//include(RAIZm.'mod-plugin-fb/fbchat.php');
 	?>
 </head>
 <body class="<?php echo $css['body'] ?>">

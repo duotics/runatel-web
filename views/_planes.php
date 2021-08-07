@@ -1,13 +1,19 @@
-<?php include('init.php');
-$pHead[title]='Planes de internet residencial :: Runatel Cobertura :: Chilcapamba, San José de la PLaya, San Antonio de Gapal, El Valle, Gualalcay';
-include('frames/head.php');
-include('frames/top.php')
-?>
-<ol class="breadcrumb breadcrumb-cero">
+<nav aria-label="breadcrumb">
+<ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="<?php echo $RAIZ ?>">Inicio</a></li>
     <li class="breadcrumb-item active" aria-current="page">Planes Internet</li>
 </ol>
-<?php include('mods/mod_content/modPlanes.php') ?>
+</nav>
+
+<div class="jarallax">
+    <img class="jarallax-img" src="<?php echo $RAIZa ?>img/bg-H-02.jpg" alt="">
+    <?php include(RAIZm.'mod_content/modPlanes.php') ?>
+</div>
+
+
+
+
+<?php include(RAIZm.'mod_content/modPlanes.php') ?>
 <div class="contenido contenido-head">
 	<div class="container">
 		<div class="row">
@@ -38,7 +44,3 @@ include('frames/top.php')
 	  
 	</div>
 </div>
-<?php include('mods/mod_content/modCobertura.php') ?>
-<?php include('mods/mod_content/modLocalizacion.php') ?>
-<?php include('frames/bottom.php');
-include('frames/foot.php'); ?>

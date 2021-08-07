@@ -1,7 +1,12 @@
 <div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/bg-H-02.jpg">
 <div class="contenido contenido-planes">
 <div class="container">
-	<h1 class="text-center mb-5"><a href="<?php echo $RAIZ ?>planes-internet-residencial.php"><span class="badge badge-primary">PLANES DE INTERNET RESIDENCIAL</span></a></h1><br><br>
+	<div class="text-center">
+		<a href="<?php echo $RAIZ ?>internet-residencial" class="btn btn-primary btn-lg mb-5">
+		<h2 class="text-center">PLANES DE INTERNET RESIDENCIAL</h2>
+		</a>
+	</div>
+
 	<div class="row">
 		<div class="col-md-4 col-sm-6 col-xs-12">
 		<div class="card text-center card-outline-success card-anim card-plan">

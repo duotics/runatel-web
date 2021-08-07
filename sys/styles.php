@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="<?php echo $RAIZv ?>thomaspark/bootswatch/dist/cosmo/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="<?php echo $RAIZv ?>fortawesome/font-awesome/css/all.css">
 <!--Plugin Styles-->
+<link href="<?php echo $RAIZa ?>plugins/jarallax/jarallax.css" rel="stylesheet">
 
 <!--FancyBox -->
 <link rel="stylesheet" type="text/css" href="<?php echo $RAIZa ?>plugins/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />

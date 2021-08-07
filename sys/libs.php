@@ -3,12 +3,13 @@
 <script type="text/javascript" src="<?php echo $RAIZv ?>twbs/bootstrap/dist/js/bootstrap.min.js"></script>
 
 <!-- BEG TEMPLATE PLUGINS -->
+<script src="https://unpkg.com/object-fit-images/dist/ofi.min.js"></script>
+
 <!-- PARALLAX PLUGIN -->
-<script type="text/javascript" src="<?php echo $RAIZa ?>plugins/jarallax/jarallax.min.js"></script>
+<script type="text/javascript" src="<?php echo $RAIZa ?>plugins/jarallax/jarallax.js"></script>
 <script type="text/javascript" src="<?php echo $RAIZa ?>plugins/jarallax/jarallax-video.min.js"></script>
 
 <!-- END TEMPLATE PLUGINS -->
-
 <script type="text/javascript">
 var RAIZ='<?php echo $RAIZ ?>';
 var RAIZs='<?php echo $RAIZs ?>';
@@ -26,8 +27,10 @@ $('#myTab a').click(function (e) { e.preventDefault(); $(this).tab('show'); })
 <script type="text/javascript" src="<?php echo $RAIZa ?>plugins/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
+		$('.jarallax').jarallax({
+			speed: 0.2
+		});
 		$(".fancybox").fancybox();
-		$(".various").fancybox({ maxWidth	: 800,		maxHeight	: 600, fitToView	: false, width		: '70%',	height		: '70%', autoSize	: false,	closeClick	: false, openEffect	: 'none',	closeEffect	: 'none' });
 		$(".fancyfull").fancybox({ width		: '85%',	height		: '85%' });
 		$(".fancybox-thumb").fancybox({ prevEffect : 'none', nextEffect : 'none', helpers : { title : { type: 'outside' }, thumbs : { width	: 50, height : 50 }}});
 	});

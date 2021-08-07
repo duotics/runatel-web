@@ -9,6 +9,8 @@ DirectoryIndex index.php
 RewriteRule ^index$ views/index [L]
 # OTHER
 RewriteRule ^home/?$ views/home
+RewriteRule ^planes/?$ views/planes
+RewriteRule ^internet-residencial/?$ views/internet-residencial
 RewriteRule ^cobertura/?$ cobertura.php
 RewriteRule ^test/?$ http://runatel.speedtestcustom.com/
 
